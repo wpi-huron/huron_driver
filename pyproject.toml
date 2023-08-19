@@ -8,8 +8,15 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+overrides = "^7.4.0"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pyyaml = "^6.0.1"
+lark = "^1.1.7"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
